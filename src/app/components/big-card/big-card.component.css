@@ -2,8 +2,8 @@
     /* border: solid white 2px; */
     margin-left: 20px;
     margin-right: 20px;
-    width: 90%;
-    height: 400px;
+    width: 80%;
+    height: 500px;
 
     display: flex;
     align-items: flex-start;
@@ -28,5 +28,6 @@
 
 .big-card__photo>img {
     width: 100%;
-    min-width: 410px;
+    min-width: 580px;
+    min-height: 300px;
 }
