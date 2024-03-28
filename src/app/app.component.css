@@ -1,0 +1,8 @@
+header {
+    /* border: 1px solid white; */
+    /*Alguma coisa referente a como o componente está posicionado na tela coloca-se no css
+    pages, mas se é algo interno do componente coloca-se no components. */
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}

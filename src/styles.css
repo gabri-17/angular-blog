@@ -1,12 +1,16 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
 /*Para tudo que não tiver formatação.*/
 *{
     /* margin: 0; */
     padding: 0;
     box-sizing: border-box; /*contabilizar de borda a borda.*/
-    background-color: #111111;
+    background-color: #111111 rgba( 0.8);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a{
     text-decoration: none;
 }
+
+

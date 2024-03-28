@@ -1,0 +1,37 @@
+.container__content{
+    /* border: 1px white solid; */
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*Quando o flex direction é column, vai centralizar na horizontal e 
+    inverter-se quano se está no row.*/
+
+}
+
+.content__description{
+    margin-top: 15px;
+    
+}
+
+.content__title{
+    font-size: 32px;
+    text-align: center;
+}
+
+.content__description > p{
+    color: rgb(238,53,224);
+    font-size: 24px;
+    margin-top: 20px;
+}
+.content__cover > img{
+    border: 5px solid rgb(250,39,132);
+    border-radius: 5px;
+    min-width: 500px;
+    height: 200px;
+}
+
+.btn-voltar{
+    font-size: 16px;
+}
